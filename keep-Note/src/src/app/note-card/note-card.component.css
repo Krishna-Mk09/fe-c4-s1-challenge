@@ -1,0 +1,12 @@
+.article{
+    border: 1px solid navy;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px azure;
+    width: 200px;
+    margin-left: 30px;
+    padding: 10px;
+}
+h3,p{
+    display: flex;
+    justify-content: center;
+} 

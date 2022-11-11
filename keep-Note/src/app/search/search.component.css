@@ -1,0 +1,17 @@
+#search {
+    width: 400px;
+    font-size: 14px;
+  }
+  input{
+    height: 30px;
+    width: 300px;
+    border-style: solid;
+    bottom: 2px;
+    border-radius: 5px;
+  }
+
+  span{
+    display: flex;
+    justify-content: center;
+    } 
+    

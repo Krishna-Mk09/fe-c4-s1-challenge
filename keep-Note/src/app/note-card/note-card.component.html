@@ -1,0 +1,19 @@
+<mat-card class="example-card">
+    <div class="btn-primary btn"
+    (mouseover)="showImage = true"
+    (mouseout)="showImage = false">
+      <mat-card-title>
+        {{ key?.title }}
+      </mat-card-title>
+      <mat-card-content>
+        <p>{{ key?.content }}</p>
+      </mat-card-content>
+    </div>
+    <mat-card-actions  *ngIf="showImage">
+        <button mat-button><mat-icon>bookmark</mat-icon></button>
+        <button mat-button><mat-icon>edit</mat-icon></button>
+        <button mat-button><mat-icon>delete</mat-icon></button>
+        <button mat-button><mat-icon>alarm</mat-icon></button>
+      </mat-card-actions>
+</mat-card>
+

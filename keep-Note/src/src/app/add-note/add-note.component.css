@@ -1,0 +1,15 @@
+.addNote{
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+
+}
+input,textarea{
+    border: none;
+    border-bottom: 1px solid black;
+}
+button{
+    background-color: blue;
+    color: azure;
+}

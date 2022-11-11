@@ -1,0 +1,11 @@
+app-add-note{
+    display: flex;
+    justify-content: center;   
+}
+app-search{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top:-40px;
+    left: -20px;
+}

@@ -1,0 +1,27 @@
+.addNote {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+
+}
+
+input {
+    height: 30px;
+    border-bottom: 1px solid black;
+    border-radius: 10pxpx;
+}
+
+button {
+    background-color: rgb(179, 62, 82);
+    color: azure;
+    height: 40px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+textarea {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+}

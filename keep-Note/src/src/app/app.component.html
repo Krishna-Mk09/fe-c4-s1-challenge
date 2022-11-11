@@ -1,0 +1,11 @@
+<app-header></app-header>
+
+<div class="dashboard">
+
+  <app-search (emmiter)="appCompDataTransfer($event)"></app-search><br>
+  
+  <app-add-note></app-add-note><br>
+  
+  <app-note-list [Notes] = "Notes"></app-note-list>
+  
+</div>

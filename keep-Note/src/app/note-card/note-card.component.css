@@ -1,0 +1,15 @@
+
+.example-card {
+    max-width: 400px;
+  }
+  mat-card-actions{
+    display: flex;
+    justify-content: center;
+  }
+
+  button{
+    margin: 5px;
+    background: rgb(35, 111, 126);
+  }
+
+  

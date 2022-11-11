@@ -1,0 +1,10 @@
+<app-header></app-header>
+
+<div class="dashboard">
+  <app-search (emmiter)="appCompDataTransfer($event)"></app-search><br />
+
+  <app-note-list [Notes]="Notes"></app-note-list>
+</div>
+<br><br>
+<button (click)="openDailog()"><mat-icon >add</mat-icon></button>
+
