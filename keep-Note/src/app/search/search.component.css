@@ -15,3 +15,31 @@
     justify-content: center;
     } 
     
+
+    input[type=search]{
+      width: 350px;
+      padding: 8px 20px 8px 45px;
+      border: rgb(242, 8, 8) solid 2px;
+      font-size: 18px;
+      border-radius: 25px;
+      background-position: 2% 50%;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      background-color:rgb(72, 75, 75);
+      transition: 0.5s all ease-in-out;
+      filter: brightness(170%);
+      margin-bottom: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: white;
+  }
+  input[type=search] :focus,
+  input[type=search] :not(:placeholder-shown){
+      width: 350px;
+      background-color: rgb(236, 20, 20);
+  }
+  .b1{
+      background-color: rgb(247, 247, 252);
+      border-radius:7px;
+      padding-top: 2px;
+  }
